@@ -1,0 +1,23 @@
+<header>
+  <nav>
+    <mat-toolbar color="accent">
+      <mat-toolbar-row>
+       
+        <span id="branding" [routerLink]="['/']"><mat-icon>music_note</mat-icon>Muzix</span>
+
+        <mat-form-field class="search" >
+          <mat-label>Search Track</mat-label>
+          <input matInput placeholder="Enter Track Name" (input)="search($event.target.value)">
+          <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+
+        <section >
+            <mat-chip-list>
+              <mat-chip  class="navLinks" [routerLink]="['/home']" >Home</mat-chip>
+              <mat-chip  class="navLinks" [routerLink]="['/playlist']">Playlist</mat-chip>
+            </mat-chip-list>
+          </section>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </nav>
+</header>

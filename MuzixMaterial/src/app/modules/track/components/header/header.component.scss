@@ -1,0 +1,27 @@
+#branding {
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.search{
+    text-align: center;
+}
+
+.navLinks {
+    font-size: 1.25rem;
+}
+
+mat-chip {
+    padding: 1.25rem;
+}
+
+mat-form-field {
+    font-size: 15px;
+    padding: 0px;
+    margin: auto;
+    align-self: flex-end;
+}
+
+mat-form-field > input{
+    border-radius: 10px;
+}

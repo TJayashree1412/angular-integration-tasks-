@@ -1,0 +1,64 @@
+#eureka:
+#    client:
+#        service-url:
+#            defaultZone: http://localhost:9091/eureka
+#fetch-registry: true
+#register-with-eureka: true
+#
+#server.port: 8099
+#
+#song:
+#   - trackId: 1
+#     trackName: 'Kill4Me'
+#     trackSinger: 'Marilyn Manson'
+#   - trackId: 2
+#     trackName: 'Good As Hell'
+#     trackSinger: 'Lizo'
+#   - trackId: 3
+#     trackName: 'Dream Is Collapsing'
+#     trackSinger: 'Hans Zimmer'
+
+#-   id: 4
+#    name: Mountains
+#    singer: Hans Zimmer
+#-   id: 5
+#    name: Neeyat
+#    singer: 'Sunidhi Chauhan '
+#-   id: 6
+#    name: The Setup
+#    singer: Jesper Kyd
+#-   id: 7
+#    name: I Took A Pill In Ibiza
+#    singer: Mike Posner
+#-   id: 8
+#    name: Believer
+#    singer: Imagine Dragons
+#-   id: 9
+#    name: The Goddess
+#    singer: Jesper Kyd
+server:
+  port:8088
+song:
+  - null
+  -   id: 10
+      name: Kill4
+      singer: Mari Mans
+  -   id: 21
+      name: Good As H
+      singer: Li
+  -   id: 38
+      name: Dream I
+      singer: Han
+  -   id: 48
+      name: tains
+      singer: Zimmer
+  -   id: 57
+      name: t
+      singer: 'Chauhan '
+  -   id: 62
+      name: Setup
+      singer: Kyd
+spring:
+  application:
+    name: track-service
+
